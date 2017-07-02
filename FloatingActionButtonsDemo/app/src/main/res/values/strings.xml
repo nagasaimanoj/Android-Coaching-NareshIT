@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">FloatingActionButtonsDemo</string>
+
+
+    <string-array name="names">
+
+        <item>Alpha</item>
+        <item>Beta</item>
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclaris</item>
+        <item>Alpha</item>
+        <item>Beta</item>
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclaris</item>
+        <item>Alpha</item>
+        <item>Beta</item>
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclaris</item>
+        <item>Alpha</item>
+        <item>Beta</item>
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclaris</item>
+        <item>Alpha</item>
+        <item>Beta</item>
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclaris</item>
+
+    </string-array>
+</resources>

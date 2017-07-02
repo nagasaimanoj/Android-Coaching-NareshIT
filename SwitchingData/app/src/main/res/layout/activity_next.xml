@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="UserName"
+        android:padding="12dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edit_border"/>
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Address"
+        android:padding="12dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edit_border"/>
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Phone"
+        android:padding="12dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edit_border"/>
+
+    <TextView
+        android:id="@+id/tvBack"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="BACK"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:padding="12dp"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+
+
+        />
+</LinearLayout>

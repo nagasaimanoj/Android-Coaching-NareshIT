@@ -1,0 +1,70 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilUserName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Enter UserName"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" />
+        </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Enter Password"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:inputType="textPassword"
+            android:layout_marginRight="25dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilAddress"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Enter Address"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="LOGIN"
+        android:gravity="center"
+        android:layout_margin="25dp"
+        android:padding="12dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+
+        />
+
+
+
+
+</LinearLayout>

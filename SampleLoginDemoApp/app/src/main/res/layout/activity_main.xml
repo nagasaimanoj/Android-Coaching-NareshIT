@@ -1,0 +1,37 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+
+
+    <TextView
+        android:id="@+id/tvProfileName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="25dp"
+        android:padding="12dp"
+        android:text="Profile Name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/ivProfilePic"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+
+        />
+</LinearLayout>

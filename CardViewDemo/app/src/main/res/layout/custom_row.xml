@@ -1,0 +1,60 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/ivCateogoryImage"
+            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/aaa"
+            />
+
+        <TextView
+            android:id="@+id/tvCategoryName"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="CategoryName"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="210dp"
+            />
+        <TextView
+            android:id="@+id/tvCategoryAddress"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="CategoryAddress"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="240dp"
+            />
+        <TextView
+            android:id="@+id/tvCategoryPhone"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="CategoryPhone"
+            android:textSize="22sp"
+            android:layout_marginLeft="180dp"
+            android:textColor="#000000"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:layout_marginTop="240dp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</android.support.v7.widget.CardView>

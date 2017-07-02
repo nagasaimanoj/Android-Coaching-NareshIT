@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloWorldApplication</string>
+    <string name="btnShow">SHOW</string>
+    <string name="tvWelcome">Hello Guys Welcome \n to \n Android Session</string>
+</resources>

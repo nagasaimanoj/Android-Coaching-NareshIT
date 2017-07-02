@@ -1,0 +1,22 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabSubmit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/home"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="450dp"/>
+
+
+    <ListView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/lvItems"
+        android:entries="@array/names"/>
+
+
+    </RelativeLayout>

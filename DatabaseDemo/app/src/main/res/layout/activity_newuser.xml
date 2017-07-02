@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Enter EMail"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:background="@drawable/edit_border"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="@drawable/edit_border"
+        />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Enter Phone"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:background="@drawable/edit_border"
+        />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Enter Address"
+        android:inputType="textPostalAddress"
+        android:padding="12dp"
+        android:background="@drawable/edit_border"
+        />
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp">
+
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="REGISTER"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:textSize="22sp"
+            />
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.01"
+
+            />
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="CANCEL"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

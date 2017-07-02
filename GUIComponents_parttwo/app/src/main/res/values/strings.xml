@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GUIComponents_parttwo</string>
+
+
+    <string-array name="version_names">
+
+        <item>Alpha</item>
+        <item>Beta</item>
+        <item>Cupacake</item>
+        <item>Donut</item>
+        <item>Ecalris</item>
+        <item>Fro-yo</item>
+        <item>Gingerbread</item>
+        <item>HoneyComb</item>
+        <item>IceCreamSandwitch</item>
+        <item>JellyBean</item>
+        <item>Kit-Kat</item>
+        <item>Lollipop</item>
+        <item>Marshmallow</item>
+        <item>Android N</item>
+
+    </string-array>
+</resources>

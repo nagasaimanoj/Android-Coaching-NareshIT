@@ -1,0 +1,40 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/etMobileNumber"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter Mobile Number"
+        android:layout_margin="25dp"
+        android:padding="12dp"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="25dp"
+        android:lines="10"
+        android:inputType="textMultiLine"
+        android:hint="Enter Message"
+        android:gravity="start" />
+
+    <TextView
+        android:id="@+id/tvSend"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="SEND"
+        android:padding="12dp"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

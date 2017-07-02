@@ -1,0 +1,29 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="25dp"
+        android:hint="ENtre Age"
+        android:inputType="number"
+        />
+    <TextView
+        android:id="@+id/tvVote"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:text="VOTE"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+
+
+        />
+    </LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CalculatorApplication</string>
+    <string name="etEnterFirstNumber">Enter First Number</string>
+    <string name="etEnterSecondNumber">Enter Second Number</string>
+    <string name="tvResult">Result</string>
+    <string name="btnAdd">ADD</string>
+    <string name="btnSub">SUB</string>
+    <string name="btnMUL">MUL</string>
+    <string name="btnDiv">DIV</string>
+    <string name="btnClear">CLEAR</string>
+</resources>

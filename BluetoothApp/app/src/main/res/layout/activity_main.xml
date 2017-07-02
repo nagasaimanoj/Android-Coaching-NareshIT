@@ -1,0 +1,50 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/tvTurnOn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="BLUETOOTH TURN ON"
+        android:padding="12dp"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvDisCoverable"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="BLUETOOTH DISCOVERABLE"
+        android:padding="12dp"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/tvTurnOff"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="BLUETOOTH TURN OFF"
+        android:padding="12dp"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        />
+
+
+
+</LinearLayout>

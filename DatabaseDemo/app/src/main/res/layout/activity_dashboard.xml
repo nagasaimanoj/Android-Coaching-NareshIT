@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvReterive"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="RETERIEVE"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimaryDark"
+
+        />
+
+    <TextView
+        android:id="@+id/tvUpdate"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="UPDATE"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimaryDark"
+
+        />
+
+    <TextView
+        android:id="@+id/tvLUsers"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="List of Users"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimaryDark"
+
+        />
+
+</LinearLayout>

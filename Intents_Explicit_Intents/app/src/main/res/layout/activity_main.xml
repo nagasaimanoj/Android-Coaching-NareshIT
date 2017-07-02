@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<TextView
+    android:id="@+id/tvNext"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="NEXT"
+    android:layout_marginTop="25dp"
+    android:layout_marginRight="45dp"
+    android:layout_marginLeft="45dp"
+    android:padding="12dp"
+    android:gravity="center"
+    android:background="@drawable/border"
+    android:textColor="#FFFFFF"
+    android:textSize="22sp"
+    android:textStyle="bold"
+
+
+    />
+
+</LinearLayout>
